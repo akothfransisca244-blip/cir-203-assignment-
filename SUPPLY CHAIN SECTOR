@@ -1,0 +1,30 @@
+EXERCISE 2;SUPPLY CHAIN SECTOR
+1)
+routes={"Nairobi","Mombasa","Kisumu","Nakuru","Embu","Eldoret","Kitale","Meru","Malindi","Nyeri"}
+print("initial routes:",routes)
+
+2)routes.append{"maseno"}
+routes.remove{"nakuru"}
+print("After append and remove:",routes)
+
+3)
+route.sort()
+print("sorted A-Z:",routes)
+routes.reverse()
+print(initial_routes(::-1))
+
+4)
+count_n=sumi for r in routes if r.startwith("n"))
+print("routes starting with 'n'=",count_n)
+
+5)
+
+long_routes={r for r in routes if len (r)>10
+print(Router longer than 10 chars:",long_routes)
+
+
+
+
+
+
+
