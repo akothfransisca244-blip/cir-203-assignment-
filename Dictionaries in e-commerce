@@ -1,0 +1,47 @@
+EXERCISE 4
+1)Inventory={"laptop model A":15,"phone x":8,"Headphone Z"
+:25,"USB-C Cable":40,"Wireless mouse":73
+print("inventory:",inventory)
+
+2)
+
+inventory_dict={"laptop model A":15,"phone x":8,"headphones Z":25,
+"USB-C Cable":40,"wireless mouse":73
+inventory["keyboard k"]=12
+inventory["phone x"]=inventory["phone x"]+5
+print(After Add $Update:",inventory)
+
+3)
+def low_stock_products(inv,threshold =10)
+return[prod for prod,qty in inv.items()if qty<threshold ]
+print("low stock(<10):",
+low_stock_products(inventory,10))
+
+4)
+def inventory["USB-C Cable"]
+print("Inventory after deletion :",inventory)
+
+5)
+for product,qty in inventory.items():
+print(f"{product}:{qty}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
