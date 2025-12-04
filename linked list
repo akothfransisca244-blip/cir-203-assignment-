@@ -1,0 +1,68 @@
+Node class for Linked List
+class Node:
+    def __init__(self, data):
+        self.data = data   # dictionary
+        self.next = None   # pointer to next node
+
+
+# Linked List class
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    # Insert at end
+    def insert(self, data):
+        new_node = Node(data)
+
+        if self.head is None:
+            self.head = new_node
+            return
+
+        temp = self.head
+        while temp.next:
+            temp = temp.next
+        
+        temp.next = new_node
+
+    # Display the list
+    def display(self):
+        temp = self.head
+        while temp:
+            print(temp.data)
+            temp = temp.next
+
+# Create the linked list
+students = LinkedList()
+
+
+students.insert({
+    "Name": "Alice",
+    "Admission": "ADM001",
+    "Grades": {
+        "Math": 85,
+        "Programming": 90,
+        "Networking": 78
+    }
+})
+
+# Insert second student
+students.insert({
+    "Name": "Brian",
+    "Admission": "ADM002",
+    "Grades": {
+        "Math": 72,
+        "Programming": 88,
+        "Networking": 80
+    }
+})
+
+# Insert third student
+students.insert({
+    "Name": "Cynthia",
+    "Admission": "ADM003",
+    "Grades": {
+        "Math": 95,
+        "Programming": 91,
+        "Networking": 89
+    }
+})
